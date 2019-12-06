@@ -2,6 +2,7 @@ package com.example.app;
 
 import androidx.appcompat.app.AppCompatActivity;
 
+import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
@@ -36,11 +37,15 @@ public class register extends AppCompatActivity {
                             Boolean checkInsert = db.insert(UserName, password);
                             if (checkInsert) {
                                 Toast.makeText(getApplicationContext(), "Successfully registered", Toast.LENGTH_SHORT).show();
+                                Intent intent = new Intent(register.this, DisplayMessageActivity.class);
+                                startActivity(intent);
                             }
                         }
                         else {
-                            Toast.makeText(getApplicationContext(), "UserName already exits", Toast.LENGTH_SHORT).show();
+                            Toast.makeText(getApplicationContext(), "User already exits", Toast.LENGTH_SHORT).show();
                         }
+                    } else {
+                        Toast.makeText(getApplicationContext(), "passWord do not match to each other", Toast.LENGTH_SHORT).show();
                     }
                 }
             }
