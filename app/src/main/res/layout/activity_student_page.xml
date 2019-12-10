@@ -16,7 +16,7 @@
             android:layout_marginStart="40dp"
             android:layout_marginLeft="40dp"
             android:layout_marginTop="60dp"
-            android:text="Hi, student A"
+            android:text="Hi, qing"
             android:textSize="24sp"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toTopOf="parent" />
@@ -25,7 +25,7 @@
             android:id="@+id/textView9"
             android:layout_width="330dp"
             android:layout_height="58dp"
-            android:layout_marginTop="100dp"
+            android:layout_marginTop="76dp"
             android:layout_marginEnd="40dp"
             android:layout_marginRight="40dp"
             android:text="Welcome to Office Hour, have fun!"
@@ -94,25 +94,13 @@
             app:layout_constraintStart_toStartOf="@+id/button6"
             app:layout_constraintTop_toBottomOf="@+id/button6" />
 
-        <TextView
-            android:id="@+id/textView11"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_marginStart="52dp"
-            android:layout_marginLeft="52dp"
-            android:layout_marginBottom="16dp"
-            android:text="There are 15 students\n wait in line before you."
-            android:textSize="30sp"
-            app:layout_constraintBottom_toBottomOf="parent"
-            app:layout_constraintStart_toStartOf="parent" />
-
         <ImageView
             android:id="@+id/imageView4"
-            android:layout_width="106dp"
-            android:layout_height="136dp"
-            android:layout_marginTop="32dp"
-            android:layout_marginEnd="52dp"
-            android:layout_marginRight="52dp"
+            android:layout_width="99dp"
+            android:layout_height="134dp"
+            android:layout_marginTop="28dp"
+            android:layout_marginEnd="60dp"
+            android:layout_marginRight="60dp"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintTop_toTopOf="parent"
             app:srcCompat="@drawable/image" />

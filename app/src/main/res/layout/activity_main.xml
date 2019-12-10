@@ -25,6 +25,8 @@
         android:layout_marginTop="24dp"
         android:layout_marginEnd="32dp"
         android:layout_marginRight="32dp"
+        android:clickable="true"
+        android:onClick="playIT"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:srcCompat="@drawable/sign" />
@@ -47,7 +49,7 @@
         android:layout_height="77dp"
         android:layout_marginStart="128dp"
         android:layout_marginLeft="128dp"
-        android:layout_marginTop="16dp"
+        android:layout_marginTop="48dp"
         android:onClick="taLog"
         android:text="TAs/CAs"
         android:textSize="18sp"
@@ -60,23 +62,11 @@
         android:layout_height="65dp"
         android:layout_marginStart="128dp"
         android:layout_marginLeft="128dp"
-        android:layout_marginTop="40dp"
+        android:layout_marginTop="72dp"
         android:onClick="studentLog"
         android:text="Students"
         android:textSize="18sp"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/taLogin" />
-
-    <Button
-        android:id="@+id/ProfessorLogin"
-        android:layout_width="146dp"
-        android:layout_height="59dp"
-        android:layout_marginStart="128dp"
-        android:layout_marginLeft="128dp"
-        android:layout_marginTop="40dp"
-        android:text="Professor"
-        android:textSize="18sp"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/studentLogin" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>

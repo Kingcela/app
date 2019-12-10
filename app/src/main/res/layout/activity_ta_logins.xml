@@ -19,7 +19,7 @@
         app:layout_constraintTop_toTopOf="parent" />
 
     <EditText
-        android:id="@+id/editText"
+        android:id="@+id/TAM"
         android:layout_width="234dp"
         android:layout_height="71dp"
         android:layout_marginStart="76dp"
@@ -44,7 +44,7 @@
         app:layout_constraintTop_toTopOf="@+id/textView6" />
 
     <EditText
-        android:id="@+id/editText2"
+        android:id="@+id/TAP"
         android:layout_width="232dp"
         android:layout_height="61dp"
         android:layout_marginStart="56dp"
@@ -67,16 +67,16 @@
         android:text="Login"
         android:textSize="18sp"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/editText2" />
+        app:layout_constraintTop_toBottomOf="@+id/TAP" />
 
     <TextView
         android:id="@+id/textView8"
-        android:layout_width="252dp"
+        android:layout_width="287dp"
         android:layout_height="20dp"
         android:layout_marginStart="76dp"
         android:layout_marginLeft="76dp"
-        android:layout_marginTop="48dp"
-        android:text="Forget password?  Good Luck!"
+        android:layout_marginTop="44dp"
+        android:text="Forget password? Ask professor for help !"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/taLoginButton" />
 </androidx.constraintlayout.widget.ConstraintLayout>
