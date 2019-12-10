@@ -40,4 +40,8 @@ public class DisplayMessageActivity extends AppCompatActivity {
         Intent intent = new Intent(this, register.class);
         startActivity(intent);
     }
+    public void loginAsTA(View view) {
+        Intent intent = new Intent (this, ta_login.class);
+        startActivity(intent);
+    }
 }

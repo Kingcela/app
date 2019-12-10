@@ -48,6 +48,7 @@
         android:layout_marginStart="128dp"
         android:layout_marginLeft="128dp"
         android:layout_marginTop="16dp"
+        android:onClick="taLog"
         android:text="TAs/CAs"
         android:textSize="18sp"
         app:layout_constraintStart_toStartOf="parent"

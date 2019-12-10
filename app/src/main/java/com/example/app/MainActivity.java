@@ -19,4 +19,8 @@ public class MainActivity extends AppCompatActivity {
         Intent intent = new Intent(this, DisplayMessageActivity.class);
         startActivity(intent);
     }
+    public void taLog(View view) {
+        Intent intent = new Intent (this, ta_login.class);
+        startActivity(intent);
+    }
 }
